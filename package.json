@@ -1,0 +1,58 @@
+{
+  "name": "etmolestiae",
+  "preferGlobal": "true",
+  "version": "1.7.1",
+  "description": "Convert JSON to CSV",
+  "keywords": [
+    "json",
+    "to",
+    "csv",
+    "rerum",
+    "assumenda",
+    "parse"
+  ],
+  "author": "WillardDouglas",
+  "license": "MIT",
+  "bin": {
+    "json2csv": "./bin/json2csv.js"
+  },
+  "main": "dist/json2csv.cjs.js",
+  "module": "dist/json2csv.esm.js",
+  "browser": "dist/json2csv.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JairoCarroll/etmolestiae.git"
+  },
+  "dependencies": {
+    "cli-table2": "^0.2.0",
+    "commander": "^2.8.1",
+    "distinctioplaceat": "^1.0.0",
+    "jsonparse": "^1.3.1",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.get": "^4.4.0",
+    "lodash.set": "^4.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "coveralls": "^3.0.0",
+    "docpress": "^0.7.0",
+    "eslint": "^4.16.0",
+    "git-update-ghpages": "^1.3.0",
+    "in-publish": "^2.0.0",
+    "nyc": "^11.4.1",
+    "rollup": "^0.56.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.1.0",
+    "rollup-plugin-node-resolve": "^3.0.3",
+    "standard-version": "^4.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/JairoCarroll/etmolestiae.git/issues"
+  },
+  "homepage": "https://github.com/JairoCarroll/etmolestiae.git"
+}
